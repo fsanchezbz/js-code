@@ -17,3 +17,4 @@ let alumnos = {
 console.log(alumnos.edad)
 console.log(alumnos.total)
 
+/*Tablas*/

@@ -65,6 +65,7 @@ const inventors = [
 
 
   console.log(inventors.first)
+  console.table(inventors)
   
   // Array.prototype.filter()
   // 1. Filter the list of inventors to retrieve only those born between 1500 and 1600
