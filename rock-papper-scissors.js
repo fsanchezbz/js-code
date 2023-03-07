@@ -125,8 +125,8 @@ startGame()
 //  // console.log(determineWinner('paper','scissors'));
 //  // console.log(determineWinner('rock','rock'));
  
-//  const playGame = () =>{
-//     const userChoice = getUserChoice('paper');
+//  const playGame = (userSelect) =>{
+//     const userChoice = getUserChoice('userSelect');
 //     const computerChoice = getComputerChoice();
 //     console.log('The computer threw:'+ computerChoice);
 //     console.log('You threw:'+ userChoice);
@@ -135,6 +135,6 @@ startGame()
  
 //  };
  
-//  playGame()
+//  playGame('rock')
  
  
