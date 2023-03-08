@@ -22,6 +22,7 @@ const newLiElement = () =>{
 
 }
 
+//newLiElement();
 
 //Inserta una imagen con Logo dentro de un DEV
 const divElement = document.querySelector("#logo");
@@ -55,10 +56,29 @@ const ChangeFirstAndLast = () =>{
 // Your task is to use the DOM API to create the necessary elements, add event listeners to them, 
 // and manipulate the elements as the user interacts with the page.
 
-const divElementListApp = document.getElementById("list-app");
-const addBotonElement = document.getElementById("addButton");
 
-addBotonElement.addEventListener("click", (e) => {
-       
-    divElementListApp.appendChild
-};
+// const elementListApp = document.getElementById("list-app");
+
+// const addButtonElement = document.getElementById("addButton");
+// const textElement = document.getElementById("textAdd");// input element
+// const ulElementListApp = document.createElement ("ul");
+// //const input = document.createElement("input");
+// const newDiv = document.createElement ("div");
+// const liElement = document.createElement("li");
+
+
+// const AddElementListApp = () =>{
+    
+//     newDiv.appendChild(ulElementListApp);
+    
+//     liElement.innerHTML = textElement.value;
+//     ulElementListApp.appendChild(liElement);
+//     textElement.value = "";
+   
+   
+//     document.body.insertBefore(newDiv, elementListApp); 
+
+// };        
+
+// addButton.addEventListener("click", AddElementListApp);
+
