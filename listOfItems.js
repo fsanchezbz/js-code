@@ -35,12 +35,12 @@ const ulElementListApp = document.createElement ("ul");
         
     };
     
-    list.addEventListener("click", function(event) {
-        if (event.target.tagName === "li") {
-            const text = prompt("Enter new text:");
-            event.target.innerHTML = text;
-        }
-    });
+    // list.addEventListener("click", function(event) {
+    //     if (event.target.tagName === "li") {
+    //         const text = prompt("Enter new text:");
+    //         event.target.innerHTML = text;
+    //     }
+    // });
     
  addButtonElement.addEventListener("click",AddElementListApp);
 
