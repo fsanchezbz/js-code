@@ -29,17 +29,18 @@ console.log('Estas con fibonacci.js');
 // Under some older definitions the value F0 = 0 is omitted, so that the sequence start with F1 = F2 =1...than n>2;
 
 // 0, 1, 1, 2, 3, 5, 8, 13, 21, 34;
+//With a recursive function create the 10 first elements of this sequence.
 
-function fibonacci(number) {
-
-    // console.log('fibonacci '+number);
-    if (number < 2){
-        return 1;
-    }else{
-        console.log('fibonacci '+number);
-        return fibonacci(number-1) + fibonacci(number-2);
+const fibonacci_series = function (number) {
+    if (number === 0) {
+      return [0];
+    } else if (number === 1) {
+      return [0, 1];
+    } else {
+      let array = fibonacci_series(number - 1);
+      array.push(array[array.length - 1] + array[array.length - 2]);
+      return array;
     }
-};
-
- //console.log(fibonacci(4));
-
+  };
+  
+  console.log(fibonacci_series(9));
